@@ -9,8 +9,8 @@ A loose recreation of the UI from https://github.com/muhku/calendar-ui this day 
 1.Clone the Repo and copy evertything in the group "Day Planner" to your own project.
 2.Set up a view controller that contains a PlannerDayView and conforms to the PlannerDayViewDelegate protocol.
  
-  > import UIKit
-   class ViewController: UIViewController, PlannerDayViewDelegate {
+    import UIKit
+    class ViewController: UIViewController, PlannerDayViewDelegate {
     @IBOutlet weak var plannerDayView: PlannerDayView!
     var selectedDay : NSDate!
     
@@ -65,4 +65,4 @@ A loose recreation of the UI from https://github.com/muhku/calendar-ui this day 
 	}
 	
 	
-  }
+    }
